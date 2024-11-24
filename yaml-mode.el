@@ -480,7 +480,8 @@ this will do usual adaptive fill behaviors."
   yaml-mode-version)
 
 ;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.\\(e?ya?\\|ra\\)ml\\'" . yaml-mode))
+(add-to-list 'auto-mode-alist
+             `(,(rx ?. (or "raml" "yaml" "yml" "eyml" "eyaml") string-end) . yaml-mode))
 
 ;;;###autoload
 (add-to-list 'magic-mode-alist
