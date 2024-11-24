@@ -1,14 +1,13 @@
+A simple major mode to edit YAML file for emacs
+
 This is a fork [of the original Yaml Mode](https://github.com/yoshiki/yaml-mode/pull/114). The reason it was forked are various disagreements with maintainers of the original mode, and my interest in contributing there is not enough to put any more resources into that.
-
-# NAME
-
-    yaml-mode - Simple major mode to edit YAML file for emacs
 
 # REQUIREMENTS
 
 Emacs 24.1
 
 # SYNOPSIS
+
 To install, just drop this file into a directory in your
 `load-path' and (optionally) byte-compile it.  To automatically
 handle files ending in '.yml', add something like:
